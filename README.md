@@ -1,4 +1,4 @@
-This repository is part of the [Proof of Email](https://prove.email/) project -- read more at [prove.email/blog/archive](https://prove.email/blog/archive)!
+This repository is part of the [Proof of Email](https://zk.email/) project -- read more at [prove.email/blog/archive]([https://zk.email/blog/archive](https://zk.email/blog/archive)!
 
 # DKIM archive website
 
@@ -71,7 +71,7 @@ python3 src/util/pst_scraper.py inbox.pst > domains_and_selectors.tsv
 
 The output file, (`domains_and_selectors.tsv` in the examples above), is a [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) file with two columns: domain and selector.
 
-You can now use the .tsv file to contribute to the archive on the [Upload from TSV file](https://archive.prove.email/upload_tsv) page.
+You can now use the .tsv file to contribute to the archive on the [Upload from TSV file](https://archive.zk.email/upload_tsv) page.
 
 # DB Migration Guide
 
@@ -111,4 +111,4 @@ Always include the new migration file in your pull request. This ensures that th
 ### Existing Migrations
 
 You can find previous migration files in the GitHub repository:
-[https://github.com/zkemail/archive.prove.email/tree/main/prisma/migrations](https://github.com/zkemail/archive.prove.email/tree/main/prisma/migrations)
+[https://github.com/zkemail/archive.zk.email/tree/main/prisma/migrations](https://github.com/zkemail/archive.zk.email/tree/main/prisma/migrations)
